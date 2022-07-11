@@ -1,6 +1,21 @@
+.app {
+  font-family: "trebuchet MS";
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+}
+
+.questions {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .question-box {
   background-color: rgb(21,21,21);
   margin: 15px;
-  color: white
-  
+  color: white;
+  border-radius: 10px;
+  padding: 0 40px 10px 40px;
 }

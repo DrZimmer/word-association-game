@@ -29,9 +29,12 @@ let score = 0
 scoreDisplay.textContent = score
 
 function populateQuestions() {
-  questions.forEach((question) => {
+  questions.forEach(question => {
     const questionBox = document.createElement('div')
     questionBox.classList.add('question-box')
+    questionBox.innerHTML = "BOX!"
     questionDisplay.append(questionBox)
   })
 }
+
+populateQuestions()
