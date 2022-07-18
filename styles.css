@@ -19,3 +19,28 @@
   border-radius: 10px;
   padding: 0 40px 10px 40px;
 }
+
+.question-box h1 {
+  text-align: left;
+  color: purple;
+}
+
+.question-buttons {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.question-button {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border:none;
+  background-color: green;
+  color:white
+}
+
+.question-button:disabled {
+  background-color: rgb(121,121,121);
+  color:rgb(150,150,150);
+}
